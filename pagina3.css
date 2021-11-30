@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;200;300;400;500;600;700&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 380px;
+    height: 850.375px;
+    padding: 28px;
+}
+
+.header{
+    text-align: center;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-weight: 400;
+}
+
+.formulario{
+    text-align: center;
+}
+
+.input-padrao{
+    width: 362px;
+    height: 38px;
+    padding: 16px;
+    margin: 10px 0;
+}
+
+select{
+    width: 362px;
+    height: 50px;
+    padding: 16px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+
+.botao{
+    width: 380px;
+}
+
+button{
+    width: 146.500px;
+    height: 38px;
+    padding: 0 16px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    outline: none;
+}
+
+.primeiro{
+    margin-left:-25px;
+}
+
+.bot{
+    width: 365px;
+    height: 38px;
+    padding: 0 16px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+}
+
+
+a{
+    color: black;
+    text-transform: uppercase;
+}
